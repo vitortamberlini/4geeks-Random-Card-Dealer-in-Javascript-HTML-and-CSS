@@ -11,22 +11,24 @@ body {
 .suits {
     height: 10vh;
 }
-.club {
+.clubs {
     content: url(https://sean.brunnock.com/Images/club.svg);
 }   
-.spade {
+.spades {
     content: url(https://sean.brunnock.com/Images/spade.svg);
-
 }
-.diamond {
+.diamonds {
+    content: url(https://sean.brunnock.com/Images/diamond.svg);
+}
+.hearts {
     content: url(https://sean.brunnock.com/Images/heart.svg);
+}
 
-    }
-.heart {
-    content: url(https://sean.brunnock.com/Images/heart.svg);
+#suits-bottom {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
 
-    }
-
-.numbers {
-    
+#card-rank {
+    font-size: 10vh;
 }
